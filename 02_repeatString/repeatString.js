@@ -1,5 +1,6 @@
 const repeatString = function (str, numberOfRepeats) {
   if (numberOfRepeats < 0) return "ERROR";
+  if (str === "") return "";
 
   outputString = "";
   for (let i = 0; i < numberOfRepeats; i++) {
